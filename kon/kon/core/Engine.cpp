@@ -11,5 +11,17 @@ Engine::~Engine() {
 
 }
 
+void Engine::start() {
+
+}
+
+void Engine::update() {
+
+}
+
+void Engine::clear() {
+
+}
+
 }
 

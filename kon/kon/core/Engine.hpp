@@ -13,6 +13,21 @@ public:
 	Engine();
 	~Engine();
 
+	/*
+	 * Call this function when the engine has been set up
+	 * Accordingly and you are ready to intilize the systems
+	 */
+	void start();
+
+	/*
+	 * Updates the game world and all the systems 
+	 */
+	void update();
+
+	/*
+	 * Clears away the entire engine
+	 */
+	void clear();
 };
 
 }
