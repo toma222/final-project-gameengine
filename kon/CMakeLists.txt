@@ -8,7 +8,7 @@ file(GLOB_RECURSE HDRS *.hpp)
 add_library(${PROJECT_NAME} ${SRCS} ${HDRS})
 
 target_include_directories( ${PROJECT_NAME}
-    PUBLIC ${PROJECT_SOURCE_DIR}/src
+    PUBLIC ${PROJECT_SOURCE_DIR}
 )
 
 target_link_libraries(${PROJECT_NAME}
