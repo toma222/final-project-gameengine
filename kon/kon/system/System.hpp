@@ -2,6 +2,8 @@
 #pragma once
 
 #include <kon/core/Util.hpp>
+#include <vector>
+#include <functional>
 
 namespace kon {
 
@@ -11,8 +13,8 @@ namespace kon {
  */
 class System {
 public:
-	System();
-	~System();
+	System() = default;
+	virtual ~System() = default;
 
 public:
 	virtual void init() = 0;
@@ -21,9 +23,32 @@ public:
 };
 
 /* 
- *
-class SystemManager {
+ * Manages the systems and their update cycle
+ * mainly just stores them in an redily accessable way
+ */
+class SystemManager final {
+public:
+	SystemManager();
+	~SystemManager();
 
+public:
+	void addSystem(Shared<System> system);
+	// void destroySystem();
+	
+	template<typename T>
+	Shared<System> getSystem() {
+
+	}
+
+	template<typename T>
+	const System &getSystem() {
+
+	}
+
+	void iterate(std::function<void(Shared<System>)> f);
+
+private:
+	std::vector<Shared<System>> m_systems;
 };
 
 }
