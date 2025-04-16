@@ -1,15 +1,16 @@
 project(editor)
 
-file(GLOB_RECURSE SRCS editor/*.cpp)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Create the executable
-add_executable(${PROJECT_NAME} editor/main.cpp)
+find_package(Qt6 REQUIRED COMPONENTS Widgets)
+qt_standard_project_setup()
 
-# Link the static library from subproject1 using its alias sub::lib1
-# Link the header only library from subproject2
-# This will cause the include directories for that target to be added to this project
-target_link_libraries(${PROJECT_NAME}
-    kon
- 	Qt6
+qt_add_executable(helloworld
+    mainwindow.ui
+    mainwindow.cpp
+    main.cpp
 )
+
+target_link_libraries(helloworld PRIVATE Qt6::Widgets)
 
