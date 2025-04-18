@@ -1,16 +1,11 @@
+
 project(editor)
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+file(GLOB_RECURSE SRCS editor/*.cpp)
 
-find_package(Qt6 REQUIRED COMPONENTS Widgets)
-qt_standard_project_setup()
+add_executable(${PROJECT_NAME} ${SRCS})
 
-qt_add_executable(helloworld
-    mainwindow.ui
-    mainwindow.cpp
-    main.cpp
+target_link_libraries(${PROJECT_NAME}
+    kon
 )
-
-target_link_libraries(helloworld PRIVATE Qt6::Widgets)
 
