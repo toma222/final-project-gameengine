@@ -1,6 +1,7 @@
 
 #pragma once
 
+#include "kon/core/Logging.hpp"
 namespace kon {
 
 /* 
@@ -28,7 +29,15 @@ public:
 	 * Clears away the entire engine
 	 */
 	void clear();
+
+public:
+	kon::Logger log;
 };
+
+#define KN_ENGINE_TRACE(...) engine->log.getLog()->trace(__VA_ARGS__);
+#define KN_ENGINE_INFO(...) engine->log.getLog()->info(__VA_ARGS__);
+#define KN_ENGINE_WARN(...) engine->log.getLog()->warn(__VA_ARGS__);
+#define KN_ENGINE_ERROR(...) engine->log.getLog()->error(__VA_ARGS__);
 
 }
 

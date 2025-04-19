@@ -3,8 +3,10 @@
 
 namespace kon {
 
-Engine::Engine() {
-
+Engine::Engine()
+	: log("log/engine.log", "ENGINE") {
+	
+	
 }
 
 Engine::~Engine() {
