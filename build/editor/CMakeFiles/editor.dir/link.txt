@@ -1,0 +1,1 @@
+/sbin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/editor.dir/link.d CMakeFiles/editor.dir/editor/main.cpp.o -o editor  ../kon/libkon.a ../external/spdlog/libspdlog.a
