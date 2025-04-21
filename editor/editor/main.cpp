@@ -12,7 +12,7 @@ class TestSystem : public kon::System {
 KN_OBJECT(System, TestSystem)
 
 public:
-	TestSystem(kon::Shared<kon::Engine> engine) 
+	TestSystem(kon::Engine *engine) 
 		: kon::System(engine) {
 		
 		KN_ENGINE_TRACE("Test system created im here");
@@ -26,24 +26,16 @@ public:
 	void reset() override {}
 
 	void printsomething() const {
-		KN_ENGINE_INFO("YOOO");
+		engine->log.getLog()->trace("yoo");
+		// KN_ENGINE_INFO("YOOO");
 	}
 };
 
 int main(void) {
-	kon::Shared<kon::Engine> engine = kon::CreateShared<kon::Engine>();
+	// kon::Shared<kon::Engine> engine = kon::CreateShared<kon::Engine>();
+	Engine *engine = new Engine();
 
-	kon::SystemManager manager(engine);
-	manager.addSystem(kon::CreateShared<TestSystem>(engine));
-
-	const auto *ts = manager.getSystem<TestSystem>();
-	
-	if(ts == nullptr)
-		KN_ENGINE_ERROR("you messed up lmao");
-
-	ts->printsomething();
-	std::string aa = ts->toString();
-	// printf("%s\n", aa.c_str());
-	KN_ENGINE_INFO("TestSystem toString: {}", ts->toString().c_str());
+	// kon::SystemManager manager(engine);
+	engine->systemsManager->addSystem(kon::CreateShared<TestSystem>(engine));
 }
 

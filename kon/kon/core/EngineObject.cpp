@@ -4,7 +4,7 @@
 
 namespace kon {
 
-EngineObject::EngineObject(Shared<Engine> t_engine)
+EngineObject::EngineObject(Engine *t_engine)
 	: engine(t_engine) {}
 
 EngineObject::~EngineObject() {

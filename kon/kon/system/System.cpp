@@ -1,15 +1,16 @@
 
 #include "System.hpp"
+#include "kon/core/Engine.hpp"
 #include "kon/core/EngineObject.hpp"
 
 namespace kon {
 
-System::System(Shared<Engine> engine) 
+System::System(Engine *engine) 
 	: EngineObject(engine) {
 	
 }
 
-SystemManager::SystemManager(Shared<Engine> engine)
+SystemManager::SystemManager(Engine *engine)
 	: EngineObject(engine), m_systems() {
 
 }
@@ -24,6 +25,7 @@ void SystemManager::addSystem(Shared<System> system) {
 
 void SystemManager::initSystems() {
 	for(Shared<System> &s : m_systems) {
+		// KN_ENGINE_TRACE("Initing system");
 		s->init();
 	}
 }

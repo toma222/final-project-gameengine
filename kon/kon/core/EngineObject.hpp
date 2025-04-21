@@ -3,6 +3,7 @@
 
 #include "kon/core/Engine.hpp"
 #include "kon/core/UUID.hpp"
+#include <memory>
 #include <string>
 
 namespace kon {
@@ -22,7 +23,7 @@ struct TypeInfo {
  */
 class EngineObject {
 public:
-	EngineObject(Shared<Engine> t_engine);
+	EngineObject(Engine *t_engine);
 	~EngineObject();
 
 	static const TypeInfo *GetStaticTypeInfo();
@@ -31,7 +32,7 @@ public:
 	virtual std::string toString() const;
 
 protected:
-	Shared<Engine> engine;
+	Engine *engine;
 };
 
 #define KN_OBJECT(Parent, TypeName) public: \

@@ -16,7 +16,7 @@ class System : public EngineObject {
 KN_OBJECT(EngineObject, System)
 
 public:
-	System(Shared<Engine> engine);
+	System(Engine *engine);
 	virtual ~System() = default;
 
 public:
@@ -31,7 +31,7 @@ public:
  */
 class SystemManager : public EngineObject {
 public:
-	SystemManager(Shared<Engine> engine);
+	SystemManager(Engine *engine);
 	~SystemManager();
 
 public:

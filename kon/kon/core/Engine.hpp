@@ -2,14 +2,18 @@
 #pragma once
 
 #include "kon/core/Logging.hpp"
+// #include "kon/system/System.hpp"
+
 namespace kon {
+
+class SystemManager;
 
 /* 
  * This class is holds the context of the entire engine
  * So instead of having some sort of Context class we have the
  * Engine class that a user application can do whatever they want with
  */
-class Engine {
+class Engine : std::enable_shared_from_this<Engine> {
 public:
 	Engine();
 	~Engine();
@@ -30,8 +34,14 @@ public:
 	 */
 	void clear();
 
+	std::shared_ptr<Engine> getptr()
+    {
+        return shared_from_this();
+    }
+
 public:
 	kon::Logger log;
+	Unique<SystemManager> systemsManager;
 };
 
 #define KN_ENGINE_TRACE(...) engine->log.getLog()->trace(__VA_ARGS__);
