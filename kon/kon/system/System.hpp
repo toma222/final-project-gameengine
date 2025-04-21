@@ -16,11 +16,8 @@ class System : public EngineObject {
 KN_OBJECT(EngineObject, System)
 
 public:
-<<<<<<< HEAD
-	System(Shared<Engine> engine);
-=======
 	System(Engine *engine);
->>>>>>> parent of 4154548 (updated git ignore)
+
 	virtual ~System() = default;
 
 public:
@@ -35,26 +32,21 @@ public:
  */
 class SystemManager : public EngineObject {
 public:
-<<<<<<< HEAD
-	SystemManager(Shared<Engine> engine);
-=======
 	SystemManager(Engine *engine);
->>>>>>> parent of 4154548 (updated git ignore)
 	~SystemManager();
 
 public:
-	void addSystem(Shared<System> system);
-	// void destroySystem();
-	
+	void addSystem(System *system);
+
 	/*
 	 * This function finds the system with a given type
 	 * Returns nullptr if it cant find anything
 	 */
 	template<typename T>
 	const T *getSystem() {
-		for(Shared<System> &s : m_systems) {
+		for(System *s : m_systems) {
 			if(s->getTypeInfo()->name.compare(T::GetStaticTypeInfo()->name) == 0) {
-				return dynamic_cast<const T*>(s.get());
+				return dynamic_cast<const T*>(s);
 			}
 		}
 
@@ -69,7 +61,7 @@ public:
 	size_t getSystemCount() const { return m_systems.size(); }
 
 private:
-	std::vector<Shared<System>> m_systems;
+	std::vector<System*> m_systems;
 };
 
 }
