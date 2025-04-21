@@ -16,7 +16,11 @@ class System : public EngineObject {
 KN_OBJECT(EngineObject, System)
 
 public:
+<<<<<<< HEAD
 	System(Shared<Engine> engine);
+=======
+	System(Engine *engine);
+>>>>>>> parent of 4154548 (updated git ignore)
 	virtual ~System() = default;
 
 public:
@@ -31,7 +35,11 @@ public:
  */
 class SystemManager : public EngineObject {
 public:
+<<<<<<< HEAD
 	SystemManager(Shared<Engine> engine);
+=======
+	SystemManager(Engine *engine);
+>>>>>>> parent of 4154548 (updated git ignore)
 	~SystemManager();
 
 public:

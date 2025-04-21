@@ -3,6 +3,10 @@
 
 #include "kon/core/Engine.hpp"
 #include "kon/core/UUID.hpp"
+<<<<<<< HEAD
+=======
+#include <memory>
+>>>>>>> parent of 4154548 (updated git ignore)
 #include <string>
 
 namespace kon {
@@ -22,7 +26,11 @@ struct TypeInfo {
  */
 class EngineObject {
 public:
+<<<<<<< HEAD
 	EngineObject(Shared<Engine> t_engine);
+=======
+	EngineObject(Engine *t_engine);
+>>>>>>> parent of 4154548 (updated git ignore)
 	~EngineObject();
 
 	static const TypeInfo *GetStaticTypeInfo();
@@ -31,7 +39,11 @@ public:
 	virtual std::string toString() const;
 
 protected:
+<<<<<<< HEAD
 	Shared<Engine> engine;
+=======
+	Engine *engine;
+>>>>>>> parent of 4154548 (updated git ignore)
 };
 
 #define KN_OBJECT(Parent, TypeName) public: \

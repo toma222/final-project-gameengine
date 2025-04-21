@@ -4,7 +4,11 @@
 
 namespace kon {
 
+<<<<<<< HEAD
 EngineObject::EngineObject(Shared<Engine> t_engine)
+=======
+EngineObject::EngineObject(Engine *t_engine)
+>>>>>>> parent of 4154548 (updated git ignore)
 	: engine(t_engine) {}
 
 EngineObject::~EngineObject() {
