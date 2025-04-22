@@ -7,6 +7,7 @@ project(kon-project)
 
 # Add sub directories
 add_subdirectory(external/spdlog)
+add_subdirectory(external/entt)
 
 add_subdirectory(kon)
 add_subdirectory(editor)

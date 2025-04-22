@@ -45,6 +45,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/yotsuba/Documents/Github/final-project-gameengine/build/external/spdlog/cmake_install.cmake")
+  include("/home/yotsuba/Documents/Github/final-project-gameengine/build/external/entt/cmake_install.cmake")
   include("/home/yotsuba/Documents/Github/final-project-gameengine/build/kon/cmake_install.cmake")
   include("/home/yotsuba/Documents/Github/final-project-gameengine/build/editor/cmake_install.cmake")
 

@@ -250,6 +250,30 @@ kon/graphics/GraphicsSystem.cpp.s:
 	cd /home/yotsuba/Documents/Github/final-project-gameengine/build && $(MAKE) $(MAKESILENT) -f kon/CMakeFiles/kon.dir/build.make kon/CMakeFiles/kon.dir/kon/graphics/GraphicsSystem.cpp.s
 .PHONY : kon/graphics/GraphicsSystem.cpp.s
 
+kon/system/Entity.o: kon/system/Entity.cpp.o
+.PHONY : kon/system/Entity.o
+
+# target to build an object file
+kon/system/Entity.cpp.o:
+	cd /home/yotsuba/Documents/Github/final-project-gameengine/build && $(MAKE) $(MAKESILENT) -f kon/CMakeFiles/kon.dir/build.make kon/CMakeFiles/kon.dir/kon/system/Entity.cpp.o
+.PHONY : kon/system/Entity.cpp.o
+
+kon/system/Entity.i: kon/system/Entity.cpp.i
+.PHONY : kon/system/Entity.i
+
+# target to preprocess a source file
+kon/system/Entity.cpp.i:
+	cd /home/yotsuba/Documents/Github/final-project-gameengine/build && $(MAKE) $(MAKESILENT) -f kon/CMakeFiles/kon.dir/build.make kon/CMakeFiles/kon.dir/kon/system/Entity.cpp.i
+.PHONY : kon/system/Entity.cpp.i
+
+kon/system/Entity.s: kon/system/Entity.cpp.s
+.PHONY : kon/system/Entity.s
+
+# target to generate assembly for a file
+kon/system/Entity.cpp.s:
+	cd /home/yotsuba/Documents/Github/final-project-gameengine/build && $(MAKE) $(MAKESILENT) -f kon/CMakeFiles/kon.dir/build.make kon/CMakeFiles/kon.dir/kon/system/Entity.cpp.s
+.PHONY : kon/system/Entity.cpp.s
+
 kon/system/System.o: kon/system/System.cpp.o
 .PHONY : kon/system/System.o
 
@@ -322,6 +346,9 @@ help:
 	@echo "... kon/graphics/GraphicsSystem.o"
 	@echo "... kon/graphics/GraphicsSystem.i"
 	@echo "... kon/graphics/GraphicsSystem.s"
+	@echo "... kon/system/Entity.o"
+	@echo "... kon/system/Entity.i"
+	@echo "... kon/system/Entity.s"
 	@echo "... kon/system/System.o"
 	@echo "... kon/system/System.i"
 	@echo "... kon/system/System.s"

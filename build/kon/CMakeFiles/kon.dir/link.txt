@@ -1,2 +1,2 @@
-/sbin/ar qc libkon.a CMakeFiles/kon.dir/kon/core/Engine.cpp.o CMakeFiles/kon.dir/kon/core/EngineObject.cpp.o CMakeFiles/kon.dir/kon/core/Logging.cpp.o CMakeFiles/kon.dir/kon/core/UUID.cpp.o CMakeFiles/kon.dir/kon/graphics/GraphicsSystem.cpp.o CMakeFiles/kon.dir/kon/system/System.cpp.o CMakeFiles/kon.dir/kon/system/World.cpp.o
+/sbin/ar qc libkon.a CMakeFiles/kon.dir/kon/core/Engine.cpp.o CMakeFiles/kon.dir/kon/core/EngineObject.cpp.o CMakeFiles/kon.dir/kon/core/Logging.cpp.o CMakeFiles/kon.dir/kon/core/UUID.cpp.o CMakeFiles/kon.dir/kon/graphics/GraphicsSystem.cpp.o CMakeFiles/kon.dir/kon/system/Entity.cpp.o CMakeFiles/kon.dir/kon/system/System.cpp.o CMakeFiles/kon.dir/kon/system/World.cpp.o
 /sbin/ranlib libkon.a

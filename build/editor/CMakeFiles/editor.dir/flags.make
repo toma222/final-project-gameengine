@@ -4,7 +4,7 @@
 # compile CXX with /sbin/c++
 CXX_DEFINES = -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include
+CXX_INCLUDES = -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/src -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/tools
 
 CXX_FLAGS = -O3 -DNDEBUG
 

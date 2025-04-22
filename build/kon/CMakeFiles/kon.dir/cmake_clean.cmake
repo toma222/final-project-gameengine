@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/kon.dir/kon/core/UUID.cpp.o.d"
   "CMakeFiles/kon.dir/kon/graphics/GraphicsSystem.cpp.o"
   "CMakeFiles/kon.dir/kon/graphics/GraphicsSystem.cpp.o.d"
+  "CMakeFiles/kon.dir/kon/system/Entity.cpp.o"
+  "CMakeFiles/kon.dir/kon/system/Entity.cpp.o.d"
   "CMakeFiles/kon.dir/kon/system/System.cpp.o"
   "CMakeFiles/kon.dir/kon/system/System.cpp.o.d"
   "CMakeFiles/kon.dir/kon/system/World.cpp.o"

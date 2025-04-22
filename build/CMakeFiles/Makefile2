@@ -64,24 +64,28 @@ CMAKE_BINARY_DIR = /home/yotsuba/Documents/Github/final-project-gameengine/build
 
 # The main recursive "all" target.
 all: external/spdlog/all
+all: external/entt/all
 all: kon/all
 all: editor/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: external/spdlog/codegen
+codegen: external/entt/codegen
 codegen: kon/codegen
 codegen: editor/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
 preinstall: external/spdlog/preinstall
+preinstall: external/entt/preinstall
 preinstall: kon/preinstall
 preinstall: editor/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: external/spdlog/clean
+clean: external/entt/clean
 clean: kon/clean
 clean: editor/clean
 .PHONY : clean
@@ -104,6 +108,25 @@ editor/preinstall:
 # Recursive "clean" directory target.
 editor/clean: editor/CMakeFiles/editor.dir/clean
 .PHONY : editor/clean
+
+#=============================================================================
+# Directory level rules for directory external/entt
+
+# Recursive "all" directory target.
+external/entt/all:
+.PHONY : external/entt/all
+
+# Recursive "codegen" directory target.
+external/entt/codegen:
+.PHONY : external/entt/codegen
+
+# Recursive "preinstall" directory target.
+external/entt/preinstall:
+.PHONY : external/entt/preinstall
+
+# Recursive "clean" directory target.
+external/entt/clean:
+.PHONY : external/entt/clean
 
 #=============================================================================
 # Directory level rules for directory external/spdlog
@@ -150,7 +173,7 @@ kon/clean: kon/CMakeFiles/kon.dir/clean
 external/spdlog/CMakeFiles/spdlog.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/spdlog/CMakeFiles/spdlog.dir/build.make external/spdlog/CMakeFiles/spdlog.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/spdlog/CMakeFiles/spdlog.dir/build.make external/spdlog/CMakeFiles/spdlog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles --progress-num=11,12,13,14,15,16,17,18 "Built target spdlog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles --progress-num=12,13,14,15,16,17,18,19 "Built target spdlog"
 .PHONY : external/spdlog/CMakeFiles/spdlog.dir/all
 
 # Build rule for subdir invocation for target.
@@ -167,7 +190,7 @@ spdlog: external/spdlog/CMakeFiles/spdlog.dir/rule
 # codegen rule for target.
 external/spdlog/CMakeFiles/spdlog.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f external/spdlog/CMakeFiles/spdlog.dir/build.make external/spdlog/CMakeFiles/spdlog.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles --progress-num=11,12,13,14,15,16,17,18 "Finished codegen for target spdlog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles --progress-num=12,13,14,15,16,17,18,19 "Finished codegen for target spdlog"
 .PHONY : external/spdlog/CMakeFiles/spdlog.dir/codegen
 
 # clean rule for target.
@@ -182,12 +205,12 @@ external/spdlog/CMakeFiles/spdlog.dir/clean:
 kon/CMakeFiles/kon.dir/all: external/spdlog/CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f kon/CMakeFiles/kon.dir/build.make kon/CMakeFiles/kon.dir/depend
 	$(MAKE) $(MAKESILENT) -f kon/CMakeFiles/kon.dir/build.make kon/CMakeFiles/kon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10 "Built target kon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11 "Built target kon"
 .PHONY : kon/CMakeFiles/kon.dir/all
 
 # Build rule for subdir invocation for target.
 kon/CMakeFiles/kon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kon/CMakeFiles/kon.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles 0
 .PHONY : kon/CMakeFiles/kon.dir/rule
@@ -199,7 +222,7 @@ kon: kon/CMakeFiles/kon.dir/rule
 # codegen rule for target.
 kon/CMakeFiles/kon.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f kon/CMakeFiles/kon.dir/build.make kon/CMakeFiles/kon.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10 "Finished codegen for target kon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11 "Finished codegen for target kon"
 .PHONY : kon/CMakeFiles/kon.dir/codegen
 
 # clean rule for target.
@@ -220,7 +243,7 @@ editor/CMakeFiles/editor.dir/all: kon/CMakeFiles/kon.dir/all
 
 # Build rule for subdir invocation for target.
 editor/CMakeFiles/editor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 editor/CMakeFiles/editor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles 0
 .PHONY : editor/CMakeFiles/editor.dir/rule

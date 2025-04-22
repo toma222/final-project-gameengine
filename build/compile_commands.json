@@ -43,49 +43,55 @@
 },
 {
   "directory": "/home/yotsuba/Documents/Github/final-project-gameengine/build/kon",
-  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -O3 -DNDEBUG -o CMakeFiles/kon.dir/kon/core/Engine.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/core/Engine.cpp",
+  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/src -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/tools -O3 -DNDEBUG -o CMakeFiles/kon.dir/kon/core/Engine.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/core/Engine.cpp",
   "file": "/home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/core/Engine.cpp",
   "output": "kon/CMakeFiles/kon.dir/kon/core/Engine.cpp.o"
 },
 {
   "directory": "/home/yotsuba/Documents/Github/final-project-gameengine/build/kon",
-  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -O3 -DNDEBUG -o CMakeFiles/kon.dir/kon/core/EngineObject.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/core/EngineObject.cpp",
+  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/src -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/tools -O3 -DNDEBUG -o CMakeFiles/kon.dir/kon/core/EngineObject.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/core/EngineObject.cpp",
   "file": "/home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/core/EngineObject.cpp",
   "output": "kon/CMakeFiles/kon.dir/kon/core/EngineObject.cpp.o"
 },
 {
   "directory": "/home/yotsuba/Documents/Github/final-project-gameengine/build/kon",
-  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -O3 -DNDEBUG -o CMakeFiles/kon.dir/kon/core/Logging.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/core/Logging.cpp",
+  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/src -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/tools -O3 -DNDEBUG -o CMakeFiles/kon.dir/kon/core/Logging.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/core/Logging.cpp",
   "file": "/home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/core/Logging.cpp",
   "output": "kon/CMakeFiles/kon.dir/kon/core/Logging.cpp.o"
 },
 {
   "directory": "/home/yotsuba/Documents/Github/final-project-gameengine/build/kon",
-  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -O3 -DNDEBUG -o CMakeFiles/kon.dir/kon/core/UUID.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/core/UUID.cpp",
+  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/src -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/tools -O3 -DNDEBUG -o CMakeFiles/kon.dir/kon/core/UUID.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/core/UUID.cpp",
   "file": "/home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/core/UUID.cpp",
   "output": "kon/CMakeFiles/kon.dir/kon/core/UUID.cpp.o"
 },
 {
   "directory": "/home/yotsuba/Documents/Github/final-project-gameengine/build/kon",
-  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -O3 -DNDEBUG -o CMakeFiles/kon.dir/kon/graphics/GraphicsSystem.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/graphics/GraphicsSystem.cpp",
+  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/src -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/tools -O3 -DNDEBUG -o CMakeFiles/kon.dir/kon/graphics/GraphicsSystem.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/graphics/GraphicsSystem.cpp",
   "file": "/home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/graphics/GraphicsSystem.cpp",
   "output": "kon/CMakeFiles/kon.dir/kon/graphics/GraphicsSystem.cpp.o"
 },
 {
   "directory": "/home/yotsuba/Documents/Github/final-project-gameengine/build/kon",
-  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -O3 -DNDEBUG -o CMakeFiles/kon.dir/kon/system/System.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/system/System.cpp",
+  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/src -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/tools -O3 -DNDEBUG -o CMakeFiles/kon.dir/kon/system/Entity.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/system/Entity.cpp",
+  "file": "/home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/system/Entity.cpp",
+  "output": "kon/CMakeFiles/kon.dir/kon/system/Entity.cpp.o"
+},
+{
+  "directory": "/home/yotsuba/Documents/Github/final-project-gameengine/build/kon",
+  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/src -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/tools -O3 -DNDEBUG -o CMakeFiles/kon.dir/kon/system/System.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/system/System.cpp",
   "file": "/home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/system/System.cpp",
   "output": "kon/CMakeFiles/kon.dir/kon/system/System.cpp.o"
 },
 {
   "directory": "/home/yotsuba/Documents/Github/final-project-gameengine/build/kon",
-  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -O3 -DNDEBUG -o CMakeFiles/kon.dir/kon/system/World.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/system/World.cpp",
+  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/src -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/tools -O3 -DNDEBUG -o CMakeFiles/kon.dir/kon/system/World.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/system/World.cpp",
   "file": "/home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/system/World.cpp",
   "output": "kon/CMakeFiles/kon.dir/kon/system/World.cpp.o"
 },
 {
   "directory": "/home/yotsuba/Documents/Github/final-project-gameengine/build/editor",
-  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -O3 -DNDEBUG -o CMakeFiles/editor.dir/editor/main.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/editor/editor/main.cpp",
+  "command": "/sbin/c++ -DSPDLOG_COMPILED_LIB -I/home/yotsuba/Documents/Github/final-project-gameengine/kon -I/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/include -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/src -I/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/tools -O3 -DNDEBUG -o CMakeFiles/editor.dir/editor/main.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/editor/editor/main.cpp",
   "file": "/home/yotsuba/Documents/Github/final-project-gameengine/editor/editor/main.cpp",
   "output": "editor/CMakeFiles/editor.dir/editor/main.cpp.o"
 }

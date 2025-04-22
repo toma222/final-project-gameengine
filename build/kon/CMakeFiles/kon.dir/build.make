@@ -142,10 +142,24 @@ kon/CMakeFiles/kon.dir/kon/graphics/GraphicsSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kon.dir/kon/graphics/GraphicsSystem.cpp.s"
 	cd /home/yotsuba/Documents/Github/final-project-gameengine/build/kon && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/graphics/GraphicsSystem.cpp -o CMakeFiles/kon.dir/kon/graphics/GraphicsSystem.cpp.s
 
+kon/CMakeFiles/kon.dir/kon/system/Entity.cpp.o: kon/CMakeFiles/kon.dir/flags.make
+kon/CMakeFiles/kon.dir/kon/system/Entity.cpp.o: /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/system/Entity.cpp
+kon/CMakeFiles/kon.dir/kon/system/Entity.cpp.o: kon/CMakeFiles/kon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object kon/CMakeFiles/kon.dir/kon/system/Entity.cpp.o"
+	cd /home/yotsuba/Documents/Github/final-project-gameengine/build/kon && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT kon/CMakeFiles/kon.dir/kon/system/Entity.cpp.o -MF CMakeFiles/kon.dir/kon/system/Entity.cpp.o.d -o CMakeFiles/kon.dir/kon/system/Entity.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/system/Entity.cpp
+
+kon/CMakeFiles/kon.dir/kon/system/Entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kon.dir/kon/system/Entity.cpp.i"
+	cd /home/yotsuba/Documents/Github/final-project-gameengine/build/kon && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/system/Entity.cpp > CMakeFiles/kon.dir/kon/system/Entity.cpp.i
+
+kon/CMakeFiles/kon.dir/kon/system/Entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kon.dir/kon/system/Entity.cpp.s"
+	cd /home/yotsuba/Documents/Github/final-project-gameengine/build/kon && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/system/Entity.cpp -o CMakeFiles/kon.dir/kon/system/Entity.cpp.s
+
 kon/CMakeFiles/kon.dir/kon/system/System.cpp.o: kon/CMakeFiles/kon.dir/flags.make
 kon/CMakeFiles/kon.dir/kon/system/System.cpp.o: /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/system/System.cpp
 kon/CMakeFiles/kon.dir/kon/system/System.cpp.o: kon/CMakeFiles/kon.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object kon/CMakeFiles/kon.dir/kon/system/System.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object kon/CMakeFiles/kon.dir/kon/system/System.cpp.o"
 	cd /home/yotsuba/Documents/Github/final-project-gameengine/build/kon && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT kon/CMakeFiles/kon.dir/kon/system/System.cpp.o -MF CMakeFiles/kon.dir/kon/system/System.cpp.o.d -o CMakeFiles/kon.dir/kon/system/System.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/system/System.cpp
 
 kon/CMakeFiles/kon.dir/kon/system/System.cpp.i: cmake_force
@@ -159,7 +173,7 @@ kon/CMakeFiles/kon.dir/kon/system/System.cpp.s: cmake_force
 kon/CMakeFiles/kon.dir/kon/system/World.cpp.o: kon/CMakeFiles/kon.dir/flags.make
 kon/CMakeFiles/kon.dir/kon/system/World.cpp.o: /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/system/World.cpp
 kon/CMakeFiles/kon.dir/kon/system/World.cpp.o: kon/CMakeFiles/kon.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object kon/CMakeFiles/kon.dir/kon/system/World.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object kon/CMakeFiles/kon.dir/kon/system/World.cpp.o"
 	cd /home/yotsuba/Documents/Github/final-project-gameengine/build/kon && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT kon/CMakeFiles/kon.dir/kon/system/World.cpp.o -MF CMakeFiles/kon.dir/kon/system/World.cpp.o.d -o CMakeFiles/kon.dir/kon/system/World.cpp.o -c /home/yotsuba/Documents/Github/final-project-gameengine/kon/kon/system/World.cpp
 
 kon/CMakeFiles/kon.dir/kon/system/World.cpp.i: cmake_force
@@ -177,6 +191,7 @@ kon_OBJECTS = \
 "CMakeFiles/kon.dir/kon/core/Logging.cpp.o" \
 "CMakeFiles/kon.dir/kon/core/UUID.cpp.o" \
 "CMakeFiles/kon.dir/kon/graphics/GraphicsSystem.cpp.o" \
+"CMakeFiles/kon.dir/kon/system/Entity.cpp.o" \
 "CMakeFiles/kon.dir/kon/system/System.cpp.o" \
 "CMakeFiles/kon.dir/kon/system/World.cpp.o"
 
@@ -188,11 +203,12 @@ kon/libkon.a: kon/CMakeFiles/kon.dir/kon/core/EngineObject.cpp.o
 kon/libkon.a: kon/CMakeFiles/kon.dir/kon/core/Logging.cpp.o
 kon/libkon.a: kon/CMakeFiles/kon.dir/kon/core/UUID.cpp.o
 kon/libkon.a: kon/CMakeFiles/kon.dir/kon/graphics/GraphicsSystem.cpp.o
+kon/libkon.a: kon/CMakeFiles/kon.dir/kon/system/Entity.cpp.o
 kon/libkon.a: kon/CMakeFiles/kon.dir/kon/system/System.cpp.o
 kon/libkon.a: kon/CMakeFiles/kon.dir/kon/system/World.cpp.o
 kon/libkon.a: kon/CMakeFiles/kon.dir/build.make
 kon/libkon.a: kon/CMakeFiles/kon.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libkon.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/yotsuba/Documents/Github/final-project-gameengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libkon.a"
 	cd /home/yotsuba/Documents/Github/final-project-gameengine/build/kon && $(CMAKE_COMMAND) -P CMakeFiles/kon.dir/cmake_clean_target.cmake
 	cd /home/yotsuba/Documents/Github/final-project-gameengine/build/kon && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kon.dir/link.txt --verbose=$(VERBOSE)
 

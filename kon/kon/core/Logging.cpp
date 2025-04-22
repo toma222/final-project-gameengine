@@ -25,5 +25,13 @@ Logger::~Logger() {
 
 }
 
+void Logger::InitEngineLog() {
+	konGlobalLog = new Logger("log/globallog.log", "GLOBAL");
+}
+
+void Logger::DestroyEngineLog() {
+	delete konGlobalLog;
+}
+
 }
 

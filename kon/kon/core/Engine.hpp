@@ -31,14 +31,13 @@ public:
 
 
 public:
-	Logger log;
 	SystemManager *systemsManager;
 };
 
-#define KN_ENGINE_TRACE(...) engine->log.getLog()->trace(__VA_ARGS__);
-#define KN_ENGINE_INFO(...) engine->log.getLog()->info(__VA_ARGS__);
-#define KN_ENGINE_WARN(...) engine->log.getLog()->warn(__VA_ARGS__);
-#define KN_ENGINE_ERROR(...) engine->log.getLog()->error(__VA_ARGS__);
+#define KN_ENGINE_TRACE(...) Logger::GetGlobalLog()->getLog()->trace(__VA_ARGS__);
+#define KN_ENGINE_INFO(...) Logger::GetGlobalLog()->getLog()->info(__VA_ARGS__);
+#define KN_ENGINE_WARN(...) Logger::GetGlobalLog()->getLog()->warn(__VA_ARGS__);
+#define KN_ENGINE_ERROR(...) Logger::GetGlobalLog()->getLog()->werror(__VA_ARGS__);
 
 }
 

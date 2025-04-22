@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.0.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.1/CMakeSystem.cmake"
   "/home/yotsuba/Documents/Github/final-project-gameengine/editor/CMakeLists.txt"
+  "/home/yotsuba/Documents/Github/final-project-gameengine/external/entt/CMakeLists.txt"
   "/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/CMakeLists.txt"
   "/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/cmake/ide.cmake"
   "/home/yotsuba/Documents/Github/final-project-gameengine/external/spdlog/cmake/utils.cmake"
@@ -65,6 +66,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "external/spdlog/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "external/entt/CMakeFiles/CMakeDirectoryInformation.cmake"
   "kon/CMakeFiles/CMakeDirectoryInformation.cmake"
   "editor/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
